@@ -7,26 +7,69 @@
     <title>Document</title>
 </head>
 <body>
-    <h1> Parrafos </h1>
-    <h2 style="color:#E4DDE4"> -Definicion de Parrafos </h2>
+  <h1>Formulario de registro </h1>
+  <div>
+    <label for="Campo_nombre">Nombre:* &nbsp;&nbsp; </label>
+    <input type="text" name="Campo_nombre" id="Campo_nombre">
+  </div>
+  <br>
+  <div>
+    <label for="Campo_Apellido">Apellido:* &nbsp; </label>
+    <input type="text" name="Campo_Apellido" id="Campo_Apellido">
+  </div>
+  <br>
+  <div>
+    <label for="Campo_Correo">Correo:* &nbsp; </label>
+    <input type="text" name="Campo_Correo" id="Campo_Correo">
+  </div>
+  <br>
+  <div>
+    <label for="Campo_Contra">Contra:* &nbsp; </label>
+    <input type="password" name="Campo_Contra" id="Campo_Contra">
+  </div>
+  <br>
+  <div>
+    <label for="Campo_Contra_Confirmacion">Contra Confirmar:* &nbsp; </label>
+    <input type="password" name="Campo_Contra_Confirmacion" id="Campo_Contra_Confirmacion">
+  </div>
+  <br>
+  <div>
+    <label for="Campo_Cumple">Fecha Cumple:* &nbsp; </label>
+    <input type="date" name="Campo_Cumple" id="Campo_Cumple">
+  </div>
+  <br>
+  <div>
+    <label> Identidad de Genero: </label>
+    <br>
+    <input type="checkbox" name="Check_Macho" id="Check_Macho">
+    <label> Macho </label>
+    <input type="checkbox" name="Check_Hembra" id="Check_Hembra">
+    <label> Hembra </label>
+    <input type="checkbox" name="Check_Ninguno" id="Check_Ninguno">
+    <label> Ninguno </label>
+  </div>
+  <div>
+    <p> Una pequenha descripcion de ti mismo: </p>
+    <textarea id="textarea1"> </textarea>
+  </div>
 
-    <p> 
-        <p><center> Que es un parrafo </center> </p>
-        <dd>Un párrafo es una unidad de un texto compuesta por una o varias oraciones, que comienza con una mayúscula y que termina con un punto y aparte. Los textos se organizan de manera tal que cada párrafo trata sobre una idea central. Generalmente, la primera oración de cada párrafo suele explicitar cuál es el punto principal que se desarrollará.</dd>
+  <div>
+    <p> Lenguaje Favorito: 
+        <select name="lenguajes" id="lenguajes">
+            <option value="C"> C </option>
+            <option value="C"> Java </option>
+            <option value="C"> PHP </option>
+            <option value="C"> Python </option>
+        </select>
     </p>
-    <div>
-        <label> Nombre y Apellido: </label>
-        <input type="text" name="NombreyApellido" value="NomyAp" id="NomyAp">
-    </div>
-    
-    <div>
-        <label> Correo Electronico: </label>
-        <input type="text " name="Correo" value="Correo" id="Correo">
-    </div>
-    <div>
-        <input type="checkbox" name="Ofertas" id="Ofertas" checked>
-        <label>Me gustaria recibir ofertas por correo</label>
-        <input type="submit" name="Enviar" id="Enviar" checked>
-    </div>
+  </div>
+
+  <div>
+   <input type="submit" name="Campo_Crear_Cuenta" id="Campo_Crear_Cuenta" value="Registrarme">
+  </div>
+
+  
+  
+  
 </body>
 </html>
