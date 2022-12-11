@@ -1,0 +1,1 @@
+En este ejercicio hacemos una pagina de nuestro cv utilizando solo html

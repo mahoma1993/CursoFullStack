@@ -1,0 +1,1 @@
+en este ejercicio aprendo a modificar o agregar stilos y elegir imgenes desde mi js

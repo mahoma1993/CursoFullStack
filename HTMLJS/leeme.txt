@@ -1,0 +1,5 @@
+En este ejercicio hacemos una pagina para arpender relacione entre html css y js 
+
+al tocar los botones pasan a on o off 
+
+tambien imprime ne consola 

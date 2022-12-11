@@ -1,0 +1,3 @@
+En este ejercicio aprendemos a como utilizar algunas funciones de java script
+
+ejemplo cambiar el texto, borrar un boton, mandar alertas 
