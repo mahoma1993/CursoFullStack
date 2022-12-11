@@ -1,0 +1,85 @@
+.header{
+  background-color: hsl(197, 23%, 94%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 85px;
+  margin-left: 5%;
+  margin-right: 5%;
+  max-width: 80%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.header .p1 {
+  font-weight: bold;
+  font-size: 40px;
+  
+}
+
+.header .search {
+  width: 30%;
+  height: 30%;
+  border: solid black;
+  
+}
+
+.header .search2 {
+  
+  height: 30%;
+  min-width: 5%;
+  border: solid black;
+  color: white;
+  background-color: blue;
+  
+}
+
+.search3 {
+  
+  height: 20%;
+  min-width: 5%;
+  border: solid black;
+  color: black;
+  background-color: yellow;
+ 
+  
+}
+
+.cuadrado1{
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 200px;
+  margin-left: 5%;
+  margin-right: 5%;
+  max-width: 80%;
+  
+  
+}
+
+.cuadrado1 .cuadrado11{
+  border: solid black;
+  margin-left: 0%;
+  width: 40%;
+  height: 90%;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 2%;
+  padding-right: 2%;
+
+}
+
+.cuadrado1 .cuadrado12{
+  border: solid black;
+  margin-right: 0%;
+  width: 30%;
+  height: 90%;
+  padding-left: 2%;
+  padding-right: 2%;
+  
+  
+
+}
+
+
