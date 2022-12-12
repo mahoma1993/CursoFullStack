@@ -1,0 +1,20 @@
+.box1 {
+    height: 100px;
+    width: 200px;
+    border: 1px solid black;
+    
+}
+
+.box11 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2px;
+    margin-right: 2px;
+    
+}
+
+.box11 button{
+    background-color: yellow;
+    height: 30px;
+    margin-top: 11px;
+}
