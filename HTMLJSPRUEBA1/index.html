@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <header class="header">
+    <div class="caja1"> <h1> DojoWeather </h1>
+    </div>
+    <div > 
+        <span class="caja2" id="item1" onclick=" loading(this)"> Burbank </span>
+        <span class="caja2" id="item2" onclick=" loading(this)"> Chicago </span>
+        <span id="item3" onclick=" loading(this)"> Dallas </span> 
+    </div>
+   </header>
+
+   <div class="body1" >
+    <h1 style="padding-right: 600px;">San Jose </h1>
+    <p style="padding-right: 10px;"> Show Temperature in </p>
+    <select name="temperatura" onchange="cambiartemp(this)">
+        <option>C</option>
+        <option>F</option>
+   </select>
+   </div>
+   <hr width="80%">
+
+   <div class="body2">
+        <div class="forecast">
+            <h1> Today </h1>
+            <img src="assets\some_rain.png">
+            <p class="temp">
+            <span style="color:red" id="temp1">24</span>  
+            <span style="color:blue" id="temp2">18</span>
+            </p>
+            
+
+        </div>
+        <div class="forecast">
+            <h1> Tomorrow </h1>
+            <img src="assets\some_sun.png">
+            <p class="temp">
+                <span style="color:red" id="temp3">27</span>  
+                <span style="color:blue" id="temp4">19</span>
+            </p>
+        </div>
+        <div class="forecast">
+            <h1> Friday </h1>
+            <img src="assets\some_clouds.png">
+            <p class="temp">
+                <span style="color:red" id="temp5">21</span>  
+                <span style="color:blue" id="temp6">16</span>
+            </p>
+        </div>
+
+        <div class="forecast">
+            <h1> Saturday </h1>
+            <img src="assets\some_sun.png">
+            <p class="temp">
+                <span style="color:red" id="temp7">26</span>  
+                <span style="color:blue" id="temp8">21</span>
+            </p>
+        </div>
+     
+   </div>
+   <div class="body3">
+    <img src="assets\cookie.png">
+    <p>
+        Stop Cookie Time <br>
+        We use cookie to peronalize content and add etc
+    </p>
+    <button class="btn" onclick="borrarcookie()">I accept </button>
+   </div>
+
+
+    
+
+
+    <script src="script.js"></script>
+</body>
+</html>

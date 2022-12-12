@@ -1,0 +1,68 @@
+.header {
+    display: flex;
+    width: 80%;
+    height: auto;
+    background-color: lightblue ;
+    padding-left: 200px;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    
+}
+
+.caja1 {
+   padding-right: 400px;
+}
+
+.caja2 {
+    padding-right: 50px;
+ }
+
+ .body1 {
+    display: flex;
+    width: 80%;
+    height: auto;
+    padding-left: 200px;
+    align-items: center;
+    margin-bottom: 0px;
+ }
+
+ .body2 {
+    display: flex;
+    width: 80%;
+    
+    
+ }
+
+ .forecast {
+    
+    flex: 1;
+    text-align: center;
+    background-color: #ddd;
+    padding: 40px 0;
+    margin-right: 10px;
+}
+
+.temp {
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+
+.body3 {
+    margin-top: 10px;
+    display: flex;
+    width: 80%;
+    height: auto;
+    font-size: 30px;
+    align-items: center;
+    margin-bottom: 0px;
+    justify-content: space-around;
+    background-color: rgb(149, 153, 157);
+ }
+
+ .btn {
+    width: 70px;
+    background-color: lightblue;
+ }
